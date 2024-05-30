@@ -1,0 +1,38 @@
+/* src/index.css */
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+.reactflow-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+aside {
+  flex: 0 0 200px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  overflow: auto;
+}
+
+.dndnode {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: grab;
+}
+
+.dndnode.input {
+  background: #e3f7f7;
+}
+
+.settings-panel {
+  padding: 10px;
+  background: #f0f0f0;
+  height: 100vh;
+  overflow: auto;
+}
